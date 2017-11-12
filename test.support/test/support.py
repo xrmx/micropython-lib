@@ -63,3 +63,6 @@ def captured_stderr():
 
 def requires_IEEE_754(f):
     return f
+
+def is_android():
+    return False
